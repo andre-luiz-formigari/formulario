@@ -1,0 +1,28 @@
+@import url(styles.css);
+@import url(styles/pop_up.css);
+@import url(styles/lista.css);
+@import url(styles/conteudo.css);
+@import url(styles/header.css);
+
+:root{
+    font-display: inherit;
+}
+body{
+    background-image: url(imagens/papel-de-parede-adesivo-espaco-sideral-fundo-preto-gamer-decoracao-gamer.webp);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    
+}
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+
+}
