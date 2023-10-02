@@ -1,5 +1,5 @@
 header{
-    background-color: #19315f;
+    background-color: grey;
     display: flex; 
     align-items: center;
     width: 100%;
@@ -7,6 +7,6 @@ header{
     font-size: 40px;
     font-weight: 700;   
     text-align: center;
-    text-shadow: 2px 2px rgb(78, 202, 78);
+    text-shadow: 2px 2px rgb(255, 255, 255);
     color: black;
 }
